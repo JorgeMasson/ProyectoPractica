@@ -2,6 +2,5 @@
     <string name="app_name">ProyectoPractica</string>
     <string name="title_activity_navegador">MainActivity</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_calendar">Calendar</string>
 </resources>
