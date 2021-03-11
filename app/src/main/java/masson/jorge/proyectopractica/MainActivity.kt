@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         enlace.setOnClickListener {
             var i = Intent(this, RegistrarActivity::class.java)
+            startActivity(i)
         }
 
     }

@@ -20,7 +20,7 @@
         android:text="Ingresar"/>
 
     <EditText
-        android:id="@+id/in_email"
+        android:id="@+id/ing_email"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -32,7 +32,7 @@
         tools:visibility="visible" />
 
     <EditText
-        android:id="@+id/in_password"
+        android:id="@+id/ing_password"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -42,6 +42,17 @@
         android:singleLine="true"
         android:visibility="visible"
         tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_ing_empezar"
+        android:layout_width="250sp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Empezar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/btn_redondo_verde"/>
 
     <TextView
         android:id="@+id/olvide_pass"
