@@ -13,7 +13,7 @@ class RegistrarActivity : AppCompatActivity() {
         val enlace: TextView = findViewById(R.id.existe_cuenta) as TextView
 
         enlace.setOnClickListener {
-            var i = Intent(this, RegistrarActivity::class.java)
+            var i = Intent(this, IngresarActivity::class.java)
             startActivity(i)
         }
 

@@ -24,24 +24,27 @@
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
         android:singleLine="true"
         android:visibility="visible"
         tools:visibility="visible" />
 
-    <EditText
-        android:id="@+id/ing_password"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        android:singleLine="true"
-        android:visibility="visible"
-        tools:visibility="visible" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ing_password"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btn_ing_empezar"
@@ -62,5 +65,7 @@
         android:layout_gravity="center"
         android:text="Olvidé mi contraseña"
         android:textColor="@color/black"/>
+
+
 
 </LinearLayout>
