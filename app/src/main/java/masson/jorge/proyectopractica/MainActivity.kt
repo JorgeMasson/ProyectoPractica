@@ -12,14 +12,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val button: Button = findViewById(R.id.btn_ingresar) as Button
-        val enlace: TextView = findViewById(R.id.crear_cuenta) as TextView
+        val enlace_crear_cuenta: TextView = findViewById(R.id.crear_cuenta) as TextView
 
         button.setOnClickListener {
             var i = Intent(this, IngresarActivity::class.java)
             startActivity(i)
         }
 
-        enlace.setOnClickListener {
+        enlace_crear_cuenta.setOnClickListener {
             var i = Intent(this, RegistrarActivity::class.java)
             startActivity(i)
         }

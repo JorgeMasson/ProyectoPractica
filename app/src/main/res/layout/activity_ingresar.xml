@@ -63,4 +63,13 @@
         android:text="Olvidé mi contraseña"
         android:textColor="@color/black"/>
 
+    <TextView
+        android:id="@+id/link_crear_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Crear cuenta"
+        android:textColor="@color/black"/>
+
 </LinearLayout>

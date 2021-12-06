@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        android:theme="@style/Theme.ProyectoPractica">
-        <activity android:name=".IngresarActivity"></activity>
+        <activity
+            android:name=".NavegadorActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navegador" />
+        <activity android:name=".IngresarActivity" />
         <activity android:name=".RegistrarActivity" />
         <activity
             android:name=".MainActivity"
